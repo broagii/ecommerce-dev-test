@@ -32,12 +32,12 @@ function App() {
           }
           images={[
             {
-              src: "/images/card-1.png",
+              src: "./images/card-1.png",
               alt: "Card 1",
               id: "1",
             },
             {
-              src: "/images/card-2.png",
+              src: "./images/card-2.png",
               alt: "Card 2",
               id: "2",
             },
@@ -78,7 +78,7 @@ function App() {
                   </small>
                 </Description>
               ),
-              image: "/images/card-3.png",
+              image: "./images/card-3.png",
             },
             {
               id: "2",
@@ -104,7 +104,7 @@ function App() {
                   </small>
                 </Description>
               ),
-              image: "/images/card-4.png",
+              image: "./images/card-4.png",
             },
           ]}
         />
